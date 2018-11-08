@@ -10,23 +10,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:backgroundTint="#6c9f9a9a"
-        app:cardCornerRadius="20dp"
-        android:layout_marginTop="10dp">
+        app:cardCornerRadius="@dimen/cornerRadius"
+        android:layout_marginTop="@dimen/marginTop">
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="709dp">
+            android:layout_height="@dimen/heightSroll">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
+                android:layout_height="@dimen/heightLinear"
                 android:orientation="vertical"
-                android:padding="10dp">
+                android:padding="@dimen/paddingLinear">
 
                 <ImageView
                     android:id="@+id/img_berita"
-                    android:layout_width="300dp"
-                    android:layout_height="200dp"
+                    android:layout_width="@dimen/widthImage"
+                    android:layout_height="@dimen/heightImage"
                     android:layout_gravity="center_horizontal"
                     android:scaleType="centerCrop"
                     android:src="@mipmap/ic_launcher" />
@@ -36,44 +36,44 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="@dimen/marginTop"
                     android:gravity="center_horizontal"
-                    android:text="Judul Berita"
+                    android:text="@string/judul_berita"
                     android:textColor="@android:color/black"
-                    android:textSize="20dp"
+                    android:textSize="@dimen/textSizeJudul"
                     android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/tanggal_posting"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="@dimen/margintoptext"
                     android:fontFamily="sans-serif"
-                    android:text="Tanggal : "
+                    android:text="@string/tanggal"
                     android:textColor="@android:color/black"
-                    android:textSize="15dp"
+                    android:textSize="@dimen/textSizeTxt"
                     android:textStyle="normal" />
 
                 <TextView
                     android:id="@+id/isi_berita"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="@dimen/marginTop"
                     android:fontFamily="sans-serif"
-                    android:text="Isi : "
+                    android:text="@string/isi"
                     android:textColor="@android:color/black"
-                    android:textSize="15dp"
+                    android:textSize="@dimen/textSizeTxt"
                     android:textStyle="normal" />
 
                 <TextView
                     android:id="@+id/penulis"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="@dimen/marginTop"
                     android:fontFamily="sans-serif"
-                    android:text="Penulis : "
+                    android:text="@string/penulis"
                     android:textColor="@android:color/black"
-                    android:textSize="15dp"
+                    android:textSize="@dimen/textSizeTxt"
                     android:textStyle="normal" />
 
             </LinearLayout>

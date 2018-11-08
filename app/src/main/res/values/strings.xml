@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">LearnRequestApi</string>
+    <string name="judul_berita">Judul Berita</string>
+    <string name="tanggal">Tanggal :</string>
+    <string name="isi">Isi :</string>
+    <string name="penulis">Penulis :</string>
+    <string name="textTGL">Sabtu, 12 Maret 2018</string>
+    <string name="textPenulis">Oleh : Fiqri Hafzain Islami</string>
 </resources>

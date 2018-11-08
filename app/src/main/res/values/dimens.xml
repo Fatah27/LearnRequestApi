@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="margin">5dp</dimen>
+    <dimen name="cornerRadius">20dp</dimen>
+    <dimen name="marginTop">10dp</dimen>
+    <dimen name="heightSroll">709dp</dimen>
+    <dimen name="heightLinear">400dp</dimen>
+    <dimen name="paddingLinear">10dp</dimen>
+    <dimen name="widthImage">300dp</dimen>
+    <dimen name="heightImage">200dp</dimen>
+    <dimen name="marginTop">10dp</dimen>
+    <dimen name="textSizeJudul">20dp</dimen>
+    <dimen name="margintoptext">5dp</dimen>
+    <dimen name="textSizeTxt">15dp</dimen>
+    <dimen name="paddingVertical">5dp</dimen>
+    <dimen name="marginHorizontal">10dp</dimen>
+    <dimen name="marginVertical">10dp</dimen>
+    <dimen name="txtSizejudul">18sp</dimen>
 </resources>
