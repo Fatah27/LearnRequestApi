@@ -7,7 +7,7 @@ public class ConfigRetrofit {
 
 
     public static final String BASE_URL =
-            "http://192.168.95.106/portal_berita-master/";
+            "http://192.168.60.73:8888/portal_berita-master/";
     public static final String IMAGES = BASE_URL + "images/";
 
     public static Retrofit setInit() {

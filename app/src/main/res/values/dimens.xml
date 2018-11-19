@@ -8,7 +8,6 @@
     <dimen name="paddingLinear">10dp</dimen>
     <dimen name="widthImage">300dp</dimen>
     <dimen name="heightImage">200dp</dimen>
-    <dimen name="marginTop">10dp</dimen>
     <dimen name="textSizeJudul">20dp</dimen>
     <dimen name="margintoptext">5dp</dimen>
     <dimen name="textSizeTxt">15dp</dimen>
